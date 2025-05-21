@@ -35,7 +35,7 @@ internal class Program
                     break;
 
                 case "4":
-                    Console.WriteLine(list.GetBack.ward());
+                    //Console.WriteLine(list.GetBack.ward());
                     break;
 
                 case "5":

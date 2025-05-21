@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DubleList\DoubleList.csproj" />
+    <ProjectReference Include="..\DoubleList\DoubleList.csproj" />
   </ItemGroup>
 
 </Project>
