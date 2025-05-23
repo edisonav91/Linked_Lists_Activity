@@ -17,8 +17,9 @@ var lista = new DoublyLinkendList<string>();
         Console.WriteLine("9. Eliminar todas las ocurrencias");
         Console.WriteLine("0. Salir");
         Console.Write("Seleccione una opción: ");
+        
         opcion = Console.ReadLine();
-
+        Console.Write("\n");
         switch (opcion)
         {
             case "1":
@@ -84,6 +85,6 @@ var lista = new DoublyLinkendList<string>();
                 Console.WriteLine("Opción no válida.");
                 break;
         }
-
+        Console.WriteLine("\n");
     } while (opcion != "0");
 
